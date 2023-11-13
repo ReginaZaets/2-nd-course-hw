@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    a {
+    text-decoration: none;
+    }
+    
+    .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+    }
+    
+    .header {
+    height: 1024px;
+    background-image: url(img/bgi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+    }
+    
+    .top {
+    padding-top: 217px;
+    }
+    
+    
+    .top__header {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 788px;
+    padding-bottom: 32px;
+    }
+    
+    .top__text {
+    max-width: 481px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    padding-bottom: 44px;
+    }
+    
+    .top__text_dop {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    }
+    
+    .top__button {
+    border: 1px solid #000;
+    border-radius: 30px;
+    background: #9C0332;
+    box-sizing: border-box;
+    width: 234px;
+    height: 48px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .img {
+    background: #000915;
+    height: 556px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    }
+    
+    .img__content {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    }
+    
+    .img__content_game1 {
+    background-image: url(img/game_1.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+    }
+    
+    .img__content_game2 {
+    background-image: url(img/game_2.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+    }
+    
+    .img__content_game3 {
+    background-image: url(img/game_3.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+    }
+    
+    .img__text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    box-sizing: border-box;
+    }
