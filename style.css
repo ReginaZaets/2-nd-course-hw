@@ -73,6 +73,11 @@
     justify-content: center;
     align-items: center;
     }
+
+    .top__button:hover {
+        border-radius: 30px;
+        background: #EB443F;
+    }
     
     .img {
     background: #000915;
@@ -87,6 +92,12 @@
     align-items: flex-end;
     padding-left: 32px;
     padding-bottom: 32px;
+    }
+
+    .img__content:hover {
+        border-radius: 16px;
+        border: 3px solid #44D2FF;
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
     }
     
     .img__content_game1 {
