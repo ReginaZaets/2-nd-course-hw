@@ -44,4 +44,20 @@
             width: 100%;
         }
     }
+
+    .middle {
+        flex-direction: column;
+        gap: 64px;
+        padding-top: 51px;
+        padding-bottom: 85px;
+    }
+
+    .box {
+        display: flex;
+        align-items: center;
+    }
+
+    .game {
+        width: 100%;
+    }
 }
