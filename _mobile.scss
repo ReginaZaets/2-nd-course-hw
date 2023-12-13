@@ -60,4 +60,15 @@
     .game {
         width: 100%;
     }
+
+    .content {
+        flex-direction: column;
+        gap: 64px;
+        padding-top: 51px;
+        padding-bottom: 85px;
+    }
+
+    .word {
+        width: 100%;
+    }
 }

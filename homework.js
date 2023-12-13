@@ -12,3 +12,18 @@ function season() {
         return alert('Неправильный месяц');
     }
 }
+const game2 = () => {
+    let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    fruits = fruits.sort(() => Math.random() - 0.5);
+    alert(fruits);
+
+    let answerOne = prompt('Чему равнялся первый элемент массива?');
+    let answerTwo = prompt('Чему равнялся последний элемент массива?');
+    if (answerOne.toLowerCase() === fruits[0].toLowerCase() && answerTwo.toLowerCase() === fruits[fruits.length - 1].toLowerCase()) {
+        alert('Поздравляем! Вы угадали оба слова!');
+    } else if (answerOne.toLowerCase() === fruits[0].toLowerCase() || answerTwo.toLowerCase() === fruits[fruits.length - 1].toLowerCase()) {
+        alert('Вы были близки к победе!');
+        } else {
+        alert('Вы не угадали ни одного слова');
+    }
+}

@@ -190,5 +190,13 @@ a {
     }
 }
 
+.content {
+    background: #000915;
+    padding-top: 239px;
+    padding-bottom: 239px;
+    display: flex;
+    gap: 135px;
+}
+
 @import 'mobile';
 @import 'table';
