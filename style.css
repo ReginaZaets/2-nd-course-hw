@@ -259,6 +259,7 @@ a {
     gap: 64px;
     padding-top: 51px;
     padding-bottom: 85px;
+    flex-direction: column-reverse;
   }
   .word {
     width: 100%;
@@ -288,6 +289,7 @@ a {
   }
   .content {
     flex-direction: column;
+    flex-direction: column-reverse;
   }
   .word {
     width: 100%;
