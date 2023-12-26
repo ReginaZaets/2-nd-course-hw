@@ -18,10 +18,30 @@
         </section>
     </div>
     <div class="img center">
-        <a class="img__content img__content_game1" href="#"><div class="img__text">Игра 1</div></a>
-        <a class="img__content img__content_game2" href="#"><div class="img__text">Игра 2</div></a>
+        <a class="img__content img__content_game1" href="#game_month"><div class="img__text">Игра 1</div></a>
+        <a class="img__content img__content_game2" href="#game_remember"><div class="img__text">Игра 2</div></a>
         <a class="img__content img__content_game3" href="#"><div class="img__text">Игра 3</div></a>
     </div>
-    <script src="hw4.js"></script>
+    <div id="game_month" class="middle center">
+        <section class="box">
+            <h1 class="box__header">Времена года!</h1>
+            <p class="box__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <a class="box__button" href="#" onclick="season()">Играть!</a>
+        </section>
+        <div>
+            <img class="game" src="img/video_game_1.svg" alt="game">
+        </div>
+    </div>
+    <div id="game_remember" class="content center">
+        <div>
+            <img class="word" src="img/video_game_2.svg" alt="game">
+        </div>
+        <section class="box">
+            <h1 class="box__header">Запомни слова</h1>
+            <p class="box__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <a class="box__button" href="#" onclick="game2()">Играть!</a>
+        </section>
+    </div>
+    <script src="homework.js"></script>
 </body>
 </html>
